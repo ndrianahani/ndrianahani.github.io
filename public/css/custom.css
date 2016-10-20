@@ -27,7 +27,15 @@ a {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar {
+.seccol{
+    color: #beae97;
+}
+
+.maincol-light {
+    color: #6C4C5D;
+}
+
+.maincol-bg {
     background-color: #302229;
 }
 
