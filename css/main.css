@@ -23,7 +23,7 @@ main {
 .main-item header h1 {
   font-family: 'Reenie Beanie', cursive;
   font-weight: normal;
-  font-size: 4em;
+  font-size: 5em;
 }
 
 .main-item header .sm {
@@ -53,7 +53,7 @@ footer {
 }
 
 dl dt {
-  padding: .3em 0 .3em 0;
+  padding: .4em 0 .4em 0;
 }
 
 dl dd {
