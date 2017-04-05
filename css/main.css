@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+
+body {
+  height: 100vh;
+  color: white;
+  background: linear-gradient(to right, #403a3e, #be5869);
+}
+
+main {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-item {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.main-item header h1 {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: normal;
+  font-size: 4em;
+}
+
+.main-item header .sm {
+  font-size: .5em;
+}
+
+footer {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-item {
+  width: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item a {
+  opacity: .6;
+}
+
+.footer-item a:hover {
+  opacity: .8;
+}
+
+dl dt {
+  padding: .3em 0 .3em 0;
+}
+
+dl dd {
+  opacity: .6;
+  visibility: hidden;
+  margin-left: 1em;
+  font-style: italic;
+}
+
+a {
+  color: white;
+}
+
+a.btn {
+  opacity: .6;
+  text-decoration: none;
+  border: .1em solid white;
+  border-radius: 1em;
+  padding: .1em .6em .1em .6em;
+}
+
+a.btn:hover {
+  opacity: .8;
+  background: rgba(255, 255, 255, .3);
+}
